@@ -1,0 +1,11 @@
+sku,name,brand,color,size,mrp,price,quantity
+PRD001,Classic Tee,ApparelCo,Red,S,1199,999,25
+PRD002,Running Shoes,StrideRun,Black,9,2999,2599,12
+PRD003,Leather Belt,UrbanWear,Brown,L,1499,1299,def
+PRD004,Summer Shorts,CoolWear,Blue,M,899,799,30
+PRD005,Skinny Jeans,DenimCraft,DarkBlue,32,2499,2299,10
+PRD006,Sports Cap,ActiveFit,White,OneSize,499,799,40
+PRD007,Backpack Pro,CarryAll,Gray,OneSize,3499,3299,8
+PRD008,Sneaker Socks,FootEase,White,L,199,159,50
+PRD009,Leather Jacket,RuggedStyle,Black,XL,7999,7499,5
+PRD010,Hooded Sweatshirt,ComfyCloth,Grey,M,2599,,15
