@@ -25,7 +25,7 @@ The API runs on `http://127.0.0.1:8000` with the interactive docs at `/docs`.
 
 ## Docker Setup
 ```bash
-docker compose up --build
+docker compose up -d
 ```
 This starts a Postgres container and the FastAPI app.
 
