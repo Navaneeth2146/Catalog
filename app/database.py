@@ -6,8 +6,11 @@ import os
 
 # DATABASE_URL = "postgresql://postgres:postgre@localhost:5432/catalog"
 DATABASE_URL = os.getenv("DATABASE_URL")
-print("hello",DATABASE_URL)
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
+
+def init_db() -> None:
+    """Create database tables if they are missing."""
+    Base.metadata.create_all(bind=engine, checkfirst=True)

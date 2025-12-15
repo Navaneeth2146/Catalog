@@ -4,7 +4,7 @@ from app.database import Base
 class Product(Base):
     __tablename__ = "products"
 
-    sku= Column(Integer, primary_key=True, index=True)
+    sku= Column(VARCHAR, primary_key=True, index=True)
     name = Column(String)
     brand = Column(VARCHAR)
     color = Column(VARCHAR)

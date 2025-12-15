@@ -1,0 +1,3 @@
+sku,name,brand,color,size,mrp,price,quantity
+sku001,shirt,activeFit,blue,L,100,150,10
+sku002,pant,max,RED,s,200,250,5

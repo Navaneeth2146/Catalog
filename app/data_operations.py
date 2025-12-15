@@ -1,16 +1,14 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 import app.models as models
-from app.database import SessionLocal,Base,engine
+from app.database import SessionLocal,init_db
 import io,csv
 
-Base.metadata.create_all(bind=engine)
-
-# Dependency to get DB session
 db: Session = SessionLocal()
 
 class DBOperation:
     def __init__(self):
+        init_db()
         self.product =  models.Product
 
     def create(self, data):
