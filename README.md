@@ -59,6 +59,6 @@ Query params: `page` and `limit`. Returns `total`, `pages`, and `data` array.
 ### GET `/products/search`
 Optional query params `brand`, `color`, `minprice`, `maxprice`. Returns matching products only.
 
-## TESTING Instructions
+## Testing Instructions
 Tests folder contains the test files.
 Test is executed by running "pytest" command.
